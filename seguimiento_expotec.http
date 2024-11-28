@@ -1,0 +1,6 @@
+@seguimiento_expotec_HostAddress = http://localhost:5018
+
+GET {{seguimiento_expotec_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
