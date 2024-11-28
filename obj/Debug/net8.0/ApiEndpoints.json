@@ -1,15 +1,15 @@
 [
   {
-    "ContainingType": "seguimiento_expotec.Controllers.CompanyController",
-    "Method": "GetCompanies",
-    "RelativePath": "api/Company",
+    "ContainingType": "seguimiento_expotec.Modules.BusinessExecutives.Controllers.BusinessExecutivesController",
+    "Method": "GetBusinessExecutives",
+    "RelativePath": "api/BusinessExecutives",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[seguimiento_expotec.Models.Company, seguimiento_expotec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[seguimiento_expotec.Modules.BusinessExecutives.Persistence.DTO.BusinessExecutivesDTO, seguimiento_expotec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,7 +20,106 @@
     ]
   },
   {
-    "ContainingType": "seguimiento_expotec.Controllers.CompanyController",
+    "ContainingType": "seguimiento_expotec.Modules.BusinessExecutives.Controllers.BusinessExecutivesController",
+    "Method": "CreateBusinessExecutive",
+    "RelativePath": "api/BusinessExecutives",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "businessExecutive",
+        "Type": "seguimiento_expotec.Modules.BusinessExecutives.Persistence.DTO.BusinessExecutivesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "seguimiento_expotec.Modules.BusinessExecutives.Controllers.BusinessExecutivesController",
+    "Method": "GetBusinessExecutiveByIdorName",
+    "RelativePath": "api/BusinessExecutives/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "seguimiento_expotec.Modules.BusinessExecutives.Persistence.DTO.BusinessExecutivesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "seguimiento_expotec.Modules.BusinessExecutives.Controllers.BusinessExecutivesController",
+    "Method": "UpdateBusinessExecutive",
+    "RelativePath": "api/BusinessExecutives/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedBusinessExecutive",
+        "Type": "seguimiento_expotec.Modules.BusinessExecutives.Persistence.DTO.BusinessExecutivesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "seguimiento_expotec.Modules.BusinessExecutives.Controllers.BusinessExecutivesController",
+    "Method": "DeleteBusinessExecutive",
+    "RelativePath": "api/BusinessExecutives/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "seguimiento_expotec.Modules.Company.Controllers.CompanyController",
+    "Method": "GetCompanies",
+    "RelativePath": "api/Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[seguimiento_expotec.Modules.Company.Persistence.DTO.CompanyDTO, seguimiento_expotec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "seguimiento_expotec.Modules.Company.Controllers.CompanyController",
     "Method": "CreateCompany",
     "RelativePath": "api/Company",
     "HttpMethod": "POST",
@@ -29,14 +128,14 @@
     "Parameters": [
       {
         "Name": "company",
-        "Type": "seguimiento_expotec.Models.Company",
+        "Type": "seguimiento_expotec.Modules.Company.Persistence.DTO.CompanyDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "seguimiento_expotec.Controllers.CompanyController",
+    "ContainingType": "seguimiento_expotec.Modules.Company.Controllers.CompanyController",
     "Method": "GetCompanyByIdorRuc",
     "RelativePath": "api/Company/{filter}",
     "HttpMethod": "GET",
@@ -51,7 +150,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "seguimiento_expotec.Models.Company",
+        "Type": "seguimiento_expotec.Modules.Company.Persistence.DTO.CompanyDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -62,7 +161,7 @@
     ]
   },
   {
-    "ContainingType": "seguimiento_expotec.Controllers.CompanyController",
+    "ContainingType": "seguimiento_expotec.Modules.Company.Controllers.CompanyController",
     "Method": "UpdateCompany",
     "RelativePath": "api/Company/{id}",
     "HttpMethod": "PUT",
@@ -76,14 +175,14 @@
       },
       {
         "Name": "updatedCompany",
-        "Type": "seguimiento_expotec.Models.Company",
+        "Type": "seguimiento_expotec.Modules.Company.Persistence.DTO.CompanyDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "seguimiento_expotec.Controllers.CompanyController",
+    "ContainingType": "seguimiento_expotec.Modules.Company.Controllers.CompanyController",
     "Method": "DeleteCompany",
     "RelativePath": "api/Company/{id}",
     "HttpMethod": "DELETE",

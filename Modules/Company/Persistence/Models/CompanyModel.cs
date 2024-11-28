@@ -1,9 +1,9 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 
-namespace seguimiento_expotec.Models
+namespace seguimiento_expotec.Modules.Company.Persistence.Models
 {
-    public class Company
+    public class CompanyModel
     {
         [BsonElement("_id")]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -21,7 +21,11 @@ namespace seguimiento_expotec.Models
         [BsonElement("district")]
         public string? District { get; set; }
 
-        [BsonElement("region")]
-        public string? Region { get; set; } 
+        [BsonElement("region")] 
+        public string? Region { get; set; }
+
+        [BsonElement("executiveId")]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public ObjectId? ExecutiveId { get; set; }
     }
 }

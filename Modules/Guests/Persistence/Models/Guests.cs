@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 
-namespace seguimiento_expotec.Models
+namespace seguimiento_expotec.Modules.Guests.Persistence.Models
 {
     public class Guests
     {
@@ -36,9 +36,5 @@ namespace seguimiento_expotec.Models
         [BsonElement("companyId")]
         [BsonRepresentation(BsonType.ObjectId)]
         public ObjectId? CompanyId { get; set; }
-
-        [BsonElement("executiveId")]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public ObjectId? ExecutiveId { get; set; }
     }
 }

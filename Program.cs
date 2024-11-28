@@ -2,7 +2,8 @@ using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
 using Microsoft.Extensions.DependencyInjection;
 using seguimiento_expotec.Connection;
-using seguimiento_expotec.Services;
+using seguimiento_expotec.Modules.Company.Services;
+using seguimiento_expotec.Modules.BusinessExecutives.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<CompanyService>();
+builder.Services.AddScoped<BusinessExecutiveService>();
 
 var app = builder.Build();
 

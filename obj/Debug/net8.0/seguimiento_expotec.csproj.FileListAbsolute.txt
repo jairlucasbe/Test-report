@@ -1,3 +1,11 @@
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.AssemblyInfo.cs
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.sourcelink.json
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\bin\Debug\net8.0\appsettings.json
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\bin\Debug\net8.0\seguimiento_expotec.exe
@@ -15,13 +23,6 @@ C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimien
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\bin\Debug\net8.0\ZstdSharp.dll
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.csproj.AssemblyReference.cache
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.AssemblyInfoInputs.cache
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.AssemblyInfo.cs
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\seguimiento_expotec.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Usuario\Documents\jlucasb\workspace\expotec_invitados\backend\seguimiento_expotec\obj\Debug\net8.0\staticwebassets\msbuild.seguimiento_expotec.Microsoft.AspNetCore.StaticWebAssets.props
